@@ -324,8 +324,11 @@ Progressive enhancement; graceful degradation
 * What is the mental model of the user?
 * What is the context? Laptop in the office, or mobile on the road?
 * What is the prioritization of the flow?
-* What are the goals?
+* What are the goals? 
 
+## Articles
+
+* [Microinteractions](https://medium.com/ux-planet/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf#.2rgvzpb7o)
 
 # Data Visualization	
 
