@@ -16,14 +16,13 @@ layout: default
 * iOS 9
    * [iOS 9 sampler](https://github.com/shu223/iOS-9-Sampler)
 * Auto-layout
-   * Great hands-on tutorial: http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started 
-   * Stack view in iOS 9: http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views 
+   * [Great hands-on tutorial](http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started) 
+   * [Stack view in iOS 9](http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views) 
 * UI performance
-   * User interface: offscreen rendering, alpha channels, shadows: https://yalantis.com/blog/mastering-uikit-performance/
-* Objective C 2015 changes: generics, nullability
-   * https://medium.com/the-traveled-ios-developers-guide/objective-c-in-2015-3cb7dab3690c 
+   * [User interface: offscreen rendering, alpha channels, shadows](https://yalantis.com/blog/mastering-uikit-performance/)
+* [Objective C 2015 changes: generics, nullability](https://medium.com/the-traveled-ios-developers-guide/objective-c-in-2015-3cb7dab3690c) 
 * Code guidelines/recommendations
-   * https://github.com/futurice/ios-good-practices 
+   * [Futurice](https://github.com/futurice/ios-good-practices) 
 * Patterns for large apps
    * [MVVM](https://www.objc.io/issues/13-architecture/mvvm/) 
    * [Other patterns](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/) 
@@ -31,27 +30,27 @@ layout: default
 
 ## Android
 
-* Google's training site: https://developer.android.com/training/index.html 
-* Usage stats: https://developer.android.com/about/dashboards/index.html 
-* Android M: https://developer.android.com/preview/index.html 
+* [Google's training site](https://developer.android.com/training/index.html) 
+* [Usage stats](https://developer.android.com/about/dashboards/index.html)
+* [Android M](https://developer.android.com/preview/index.html)
 
 ## Cross platform
 
-* Good Smashing Magazine article on combining native and web, with a real-life example: https://www.smashingmagazine.com/2016/02/building-first-class-app-leverages-website-case-study/ 
-* Smashing Magazine's comparison of native, PhoneGap (Cordova), Appcelerator (somewhat dated - 2013): http://www.smashingmagazine.com/2013/11/four-ways-to-build-a-mobile-app-part1-native-ios/ 
-* Matching the platform's user experience: https://medium.com/space-camp/cross-platform-uis-for-mobile-meteor-apps-6f12b583b205 
+* [Good Smashing Magazine article on combining native and web, with a real-life example](https://www.smashingmagazine.com/2016/02/building-first-class-app-leverages-website-case-study/) 
+* [Smashing Magazine's comparison of native, PhoneGap (Cordova), Appcelerator (somewhat dated - 2013)](http://www.smashingmagazine.com/2013/11/four-ways-to-build-a-mobile-app-part1-native-ios/) 
+* [Matching the platform's user experience](https://medium.com/space-camp/cross-platform-uis-for-mobile-meteor-apps-6f12b583b205) 
 
 ### Cordova
 
 * https://cordova.apache.org/
-* Tutorial: https://ccoenraets.github.io/cordova-tutorial/
+* [Tutorial](https://ccoenraets.github.io/cordova-tutorial/)
 
 ### Reactive Native
 
 * http://www.reactnative.com/
 * Tutorials:
-   * Facebook: https://facebook.github.io/react-native/docs/tutorial.html 
-   * Ray Wenderlich: http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript 
+   * [Facebook](https://facebook.github.io/react-native/docs/tutorial.html) 
+   * [Ray Wenderlich](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript) 
 * Supports Android as of Sep/2015
 * Doesn't support table views? That's a bummer for iOS… UIs won't look close to the native UIs.
    * https://github.com/facebook/react-native/issues/332
@@ -59,39 +58,38 @@ layout: default
 ### ionic
 
 * http://ionicframework.com/
-* ionic2 in beta: http://blog.ionic.io/announcing-ionic-framework-2-beta/
+* [ionic2 in beta](http://blog.ionic.io/announcing-ionic-framework-2-beta/)
    * Using AngularJS2
-* Tutorials: http://ionicframework.com/getting-started/ 
-   * The ionic book: http://ionicframework.com/docs/guide/ 
-   * Crash course video (one year old): https://www.youtube.com/watch?v=C-UwOWB9Io4&feature=youtu.be 
+* [Tutorials](http://ionicframework.com/getting-started/) 
+   * [The ionic book](http://ionicframework.com/docs/guide/) 
+   * [Crash course video (one year old)](https://www.youtube.com/watch?v=C-UwOWB9Io4&feature=youtu.be) 
 * Emphasis on good UI design
 * Built on top of Cordova and AngularJS
-   * Hybrid: https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic 
-* Share apps with other users (e.g. testers): http://view.ionic.io/ 
+   * [Hybrid](https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic) 
+* [Share apps with other users (e.g. testers)](http://view.ionic.io/) 
 
 ### Meteor
 
 * https://www.meteor.com/
 * Offers also the backend, not only the app side (based on Node.js)
 * Offers its own framework (blaze), but also claims to integrate with AngularJS and React Native
-* Somewhat old thread on it: https://news.ycombinator.com/item?id=8651367 
+* [Somewhat old thread on it](https://news.ycombinator.com/item?id=8651367) 
 
 ### Xamarin
 
 * https://xamarin.com/ 
 * C# (pretty much everything else is JavaScript)
 * Also targets the desktop (Windows and Mac)
-* Paid: https://store.xamarin.com/ (per developer, per device platfrom)
+* [Paid](https://store.xamarin.com/) (per developer, per device platfrom)
 
 ### NativeScript
 
 * https://www.nativescript.org/
-* http://www.agingcoder.com/programming/2015/10/15/second-thoughts-on-nativescript-react-native-and-mobilenativejavascript-in-general/ 
-* Backed by http://www.telerik.com/nativescript/faq
+* [Review from a developer](http://www.agingcoder.com/programming/2015/10/15/second-thoughts-on-nativescript-react-native-and-mobilenativejavascript-in-general/) 
+* [Backed by Telerik](http://www.telerik.com/nativescript/faq)
 * Difference to Cordova, according to the FAQ
    * PhoneGap framework is using the browser's layout and rendering engine to display the UI of the application. NativeScript is using the native platform default rendering and layout engine to display the UI of the application. This means that the applications using NativeScript framework are exposing exactly the same UX as natively written applications. The other major difference is that with PhoneGap model you need to write a plugin to access the native capabilities of the platform, while with NativeScript the native APIs are available out of the box.
-* Compared to Ionic
-   * https://blog.nraboy.com/2015/11/nativescript-vs-ionic-framework-should-you-switch/ 
+* [Compared to Ionic](https://blog.nraboy.com/2015/11/nativescript-vs-ionic-framework-should-you-switch/) 
 
 ## Mobile web development test
 
@@ -118,13 +116,13 @@ layout: default
 ## JavaScript
 
 * Best references
-   * Eloquent JavaScript (learning): http://eloquentjavascript.net/ 
-   * Mozilla: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+   * [Eloquent JavaScript (learning)](http://eloquentjavascript.net/) 
+   * [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * Quick scripting
    * https://jsfiddle.net/ 
    * http://codepen.io/ 
 * New features in ES6
-   * Overview, comparing with ES5: http://es6-features.org/#PromiseCombination 
+   * [Overview, comparing with ES5](http://es6-features.org/#PromiseCombination) 
    * Promises: how are they different from callback? 
       * Guaranteed execution; chaining; better error handling
       * http://www.html5rocks.com/en/tutorials/es6/promises/ 
@@ -133,40 +131,39 @@ layout: default
 
 ## CSS
 
-* Browser support: http://caniuse.com/ 
+* [Browser support - caniuse](http://caniuse.com/) 
 * https://css-tricks.com/
-* Mind blowing CSS: https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/ 
+* [Mind blowing CSS](https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/) 
 * LESS vs. Sass
-   * Comprehensive: https://css-tricks.com/sass-vs-less/ 
-   * Side by side: https://gist.github.com/chriseppstein/674726 
+   * [Comprehensive](https://css-tricks.com/sass-vs-less/) 
+   * [Side by side](https://gist.github.com/chriseppstein/674726) 
 
 ## HTML5
 
-* Browser support: http://caniuse.com/ 
-* Mobile support: http://mobilehtml5.org/ 
+* [Browser support](http://caniuse.com/) 
+* [Mobile support](http://mobilehtml5.org/) 
 
 ## AngularJS
 
-* Tutorial: https://docs.angularjs.org/tutorial 
-* What is so good in AngularJS? Main reference: https://www.airpair.com/#6-1-the-good-parts 
+* [Tutorial](https://docs.angularjs.org/tutorial) 
+* [What is so good in AngularJS?](https://www.airpair.com/#6-1-the-good-parts) 
    * Two-way data binding
    * Backed by Google, constantly improving
    * Lots of community activity around it
    * Seems to force a better separation of concerns from the start
-* Comparison with other frameworks: https://www.airpair.com/js/javascript-framework-comparison 
+* [Comparison with other frameworks](https://www.airpair.com/js/javascript-framework-comparison) 
 * What is new in AngularJS 2.0?
-   * Overview: http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/#what_is_angularjs_20_all_about 
+   * [Overview](http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/#what_is_angularjs_20_all_about) 
       * If you do it right on mobile, if you tackle loading times, performance and other mobile challenges first, then desktop becomes a much easier task.
-   * Mobile first !! - http://angularjs.blogspot.com/2014/03/angular-20.html 
+   * [Mobile first !!](http://angularjs.blogspot.com/2014/03/angular-20.html) 
 * AngularJS + Bootstrap: 
    * https://scotch.io/tutorials/how-to-correctly-use-bootstrapjs-and-angularjs-together 
    * http://mgcrea.github.io/angular-strap/# 
-* Angular and React comparison: https://medium.com/@housecor/angular-2-versus-react-there-will-be-blood-66595faafd51#.i80t0u66y 
+* [Angular and React comparison](https://medium.com/@housecor/angular-2-versus-react-there-will-be-blood-66595faafd51#.i80t0u66y) 
 
 ## ReactJS
 
-* Tutorial
-   * https://scotch.io/tutorials/learning-react-getting-started-and-concepts 
+* [Tutorial](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) 
 * How does this compete with AngularJS?
    * Backed by Facebook (vs. AngularJS backed by Google)
    * Seems to concentrate more on the UI part
@@ -180,21 +177,21 @@ layout: default
 
 * http://electron.atom.io/ 
 * Tutorials
-   * Quick start: https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md 
-   * All tutorials: https://github.com/atom/electron/tree/master/docs/tutorial 
+   * [Quick start](https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md) 
+   * [All tutorials](https://github.com/atom/electron/tree/master/docs/tutorial) 
 * Deploy JavaScript as a desktop app - packages Chromium
 * Microsoft Visual Studio Code uses it
 * How to encapsulate the app? How big is it? How to update it?
 
 ## Node.js/io.js
 
-* Learning: http://eloquentjavascript.net/20_node.html 
+* [Learning](http://eloquentjavascript.net/20_node.html) 
 * Is Dart an alternative or something else?
-   * Not clear. Best resource so far for comparison: https://www.youtube.com/watch?v=NHsmiY0rFS8 
+   * Not clear. Best resource so far for [comparison](https://www.youtube.com/watch?v=NHsmiY0rFS8) 
 
 ## Polymer/web components
 
-* Why is this better than an AngularJS directive? http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/ 
+* [Why is this better than an AngularJS directive?](http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/) 
    * Polymer encapsulates styles (JS + HTML + CSS). AngularJS directive don't do that (but may in the future).
 * Polymer catalogs:
    * https://www.polymer-project.org/1.0/ 
@@ -208,7 +205,7 @@ layout: default
 ## Polyfill
 
 * Cross-browser compatibility (not only, but mostly)
-* List of lots of them: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills 
+* [List of lots of them](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) 
    * Watch for license model
 
 ## Web development test
@@ -221,15 +218,15 @@ layout: default
 
 * Discoverability: ability to find key information
 * Affordance: how the user perceives that an action is possible (cultural conventions, constraints, …), also used to say that a control behaves as its appearance suggests it behaves
-   * Donald Norman says it's been used out of context: http://www.jnd.org/dn.mss/affordances_and.html 
+   * Donald Norman says it's been [used out of context](http://www.jnd.org/dn.mss/affordances_and.html) 
    * https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/affordances 
 
 ## References
 
 * http://www.smashingmagazine.com/ 
 * Apple videos
-   * Designing intuitive user experiences: https://developer.apple.com/videos/wwdc/2014/#211   
-   * Design with animation: https://developer.apple.com/videos/wwdc/2015/?id=803 
+   * [Designing intuitive user experiences](https://developer.apple.com/videos/wwdc/2014/#211)   
+   * [Design with animation](https://developer.apple.com/videos/wwdc/2015/?id=803) 
 * http://www.nngroup.com/articles/ 
    * The iconic article: http://www.nngroup.com/articles/how-users-read-on-the-web/ 
 * http://www.fastcodesign.com/
@@ -240,7 +237,7 @@ layout: default
 * Books
    * The Design of Everyday Things
    * Don't Make Me Think (and Rocket Surgery Made Easy)
-      * Summary (unofficial): http://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/ 
+      * [Summary (unofficial)](http://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) 
       * https://www.sensible.com/dmmt.html
       * Also offers one-day workshops on usability test
    * About Face
@@ -293,9 +290,9 @@ Progressive enhancement; graceful degradation
 
 * Invision
    * Supports chat for reviews
-   * Will add animation: http://blog.invisionapp.com/motion-prototypeanimation/ 
-   * Will add styles, can export them: http://blog.invisionapp.com/insight-ui-designers-developers-collaboration /
-* Atomic - https://atomic.io/ -- just launched (Sep/2015)
+   * [Will add animation](http://blog.invisionapp.com/motion-prototypeanimation/) 
+   * [Will add styles, can export them](http://blog.invisionapp.com/insight-ui-designers-developers-collaboration/)
+* [Atomic](https://atomic.io/) -- launched Sep/2015
    * Compared to Invision: supports animation and version control
 
 ## Onboardig + teaching marks
@@ -344,7 +341,7 @@ Progressive enhancement; graceful degradation
 
 ## RESTful APIs
 
-* Great tutorial: http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1 
+* [Great tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1) 
 
 ## Best places to learn
 
