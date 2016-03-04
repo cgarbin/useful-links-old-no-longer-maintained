@@ -42,12 +42,12 @@ layout: default
 
 ### Cordova
 
-* https://cordova.apache.org/
+* [Cordova main site](https://cordova.apache.org/)
 * [Tutorial](https://ccoenraets.github.io/cordova-tutorial/)
 
 ### Reactive Native
 
-* http://www.reactnative.com/
+* [Reactive native main site](http://www.reactnative.com/)
 * Tutorials:
    * [Facebook](https://facebook.github.io/react-native/docs/tutorial.html) 
    * [Ray Wenderlich](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript) 
@@ -57,7 +57,7 @@ layout: default
 
 ### ionic
 
-* http://ionicframework.com/
+* [ionic main site](http://ionicframework.com/)
 * [ionic2 in beta](http://blog.ionic.io/announcing-ionic-framework-2-beta/)
    * Using AngularJS2
 * [Tutorials](http://ionicframework.com/getting-started/) 
@@ -70,7 +70,7 @@ layout: default
 
 ### Meteor
 
-* https://www.meteor.com/
+* [Meteor main site](https://www.meteor.com/)
 * Offers also the backend, not only the app side (based on Node.js)
 * Offers its own framework (blaze), but also claims to integrate with AngularJS and React Native
 * [Somewhat old thread on it](https://news.ycombinator.com/item?id=8651367) 
@@ -109,7 +109,7 @@ layout: default
 	
 ## General training
 
-* https://www.udacity.com/courses/web-development 
+* [Udacity](https://www.udacity.com/courses/web-development) 
 * http://www.frontendhandbook.com/index.html 
 * https://github.com/maxogden/art-of-node 
 
@@ -125,14 +125,14 @@ layout: default
    * [Overview, comparing with ES5](http://es6-features.org/#PromiseCombination) 
    * Promises: how are they different from callback? 
       * Guaranteed execution; chaining; better error handling
-      * http://www.html5rocks.com/en/tutorials/es6/promises/ 
-      * http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/ 
-      * http://stackoverflow.com/questions/22539815/arent-promises-just-callbacks 
+      * [HTML5 tutorial](http://www.html5rocks.com/en/tutorials/es6/promises/) 
+      * [Parse's what's so great](http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/) 
+      * [Stackoverflow's "just callbacks"](http://stackoverflow.com/questions/22539815/arent-promises-just-callbacks) 
 
 ## CSS
 
 * [Browser support - caniuse](http://caniuse.com/) 
-* https://css-tricks.com/
+* [CSS Tricks](https://css-tricks.com/)
 * [Mind blowing CSS](https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/) 
 * LESS vs. Sass
    * [Comprehensive](https://css-tricks.com/sass-vs-less/) 
@@ -200,7 +200,7 @@ layout: default
 * How is this different from AngularJS directives?
    * AngularJS doesn't encapsulate the HTML/CSS, so not self-contained UI element
    * But AngularJS 2.0 may get closer to web components or at least use them as part of the framework
-   * http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/ 
+   * [Polymer vs. AngularJS](http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/) 
 
 ## Polyfill
 
@@ -210,7 +210,7 @@ layout: default
 
 ## Web development test
 
-* https://www.browserstack.com/
+* [Browser stack](https://www.browserstack.com/)
 
 # Design (interaction, VD)	
 
@@ -227,9 +227,9 @@ layout: default
 * Apple videos
    * [Designing intuitive user experiences](https://developer.apple.com/videos/wwdc/2014/#211)   
    * [Design with animation](https://developer.apple.com/videos/wwdc/2015/?id=803) 
-* http://www.nngroup.com/articles/ 
-   * The iconic article: http://www.nngroup.com/articles/how-users-read-on-the-web/ 
-* http://www.fastcodesign.com/
+* [Nielsen Group](http://www.nngroup.com/articles/) 
+   * [The iconic article: how people read on the web](http://www.nngroup.com/articles/how-users-read-on-the-web/) 
+* [Fastco Design](http://www.fastcodesign.com/)
    * Generic design, not only computers
 
 ## Books and other training material
@@ -248,8 +248,8 @@ layout: default
 
 ## Sample from other apps
 
-* http://uxarchive.com/ (updates seems to have been far and between?)
-* http://www.mobile-patterns.com/ 
+* [UA archives](http://uxarchive.com/ (updates seems to have been far and between?))
+* [Mobile Patterns[(http://www.mobile-patterns.com/) 
 * http://pttrns.com/ 
 * http://inspired-ui.com/ 
 * http://androidniceties.tumblr.com/ 
@@ -307,8 +307,8 @@ Progressive enhancement; graceful degradation
 
 * Fewer choices
    * Anticipatory design is fundamentally different: decisions are made and executed on behalf of the user. The goal is not to help the user make a decision, but to create an ecosystem where a decision is never made—it happens automatically and without user input. The design goal becomes one where we eliminate as many steps as possible and find ways to use data, prior behaviors and business logic to have things happen automatically, or as close to automatic as we can get.
-* http://www.fastcodesign.com/3045039/the-next-big-thing-in-design-fewer-choices 
-* http://www.smashingmagazine.com/2015/09/anticipatory-design/
+* [Fewer choices](http://www.fastcodesign.com/3045039/the-next-big-thing-in-design-fewer-choices) 
+* [Smashing Magaize article](http://www.smashingmagazine.com/2015/09/anticipatory-design/)
 
 ## Design with personas
 
@@ -328,14 +328,14 @@ Progressive enhancement; graceful degradation
 
 # Data Visualization	
 
-* http://d3js.org/
-* http://www.edwardtufte.com/tufte/
-* http://flowingdata.com/ 
-* http://www.informationisbeautiful.net/ 
-* http://junkcharts.typepad.com/ 
-* http://datavisualization.ch/ 
-* http://chartporn.org/ 
-* http://www.coolinfographics.com/ 
+* [D3](http://d3js.org/)
+* [Edward Tufte](http://www.edwardtufte.com/tufte/)
+* [Flowing Data](http://flowingdata.com/) 
+* [Information is beatiful](http://www.informationisbeautiful.net/) 
+* [Junk charts](http://junkcharts.typepad.com/) 
+* [Data visualization](http://datavisualization.ch/) 
+* [Chart porn](http://chartporn.org/) 
+* [Cool infographics](http://www.coolinfographics.com/) 
 
 # General
 
@@ -345,5 +345,5 @@ Progressive enhancement; graceful degradation
 
 ## Best places to learn
 
-* (https://www.codecademy.com/) 
-* (https://www.udacity.com/)
+* [Codecademy](https://www.codecademy.com/) 
+* [Udacity](https://www.udacity.com/)
