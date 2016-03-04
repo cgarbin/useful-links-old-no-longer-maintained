@@ -7,14 +7,14 @@ layout: default
 ## iOS
 
 * Best training: [Stanford class](http://web.stanford.edu/class/cs193p/cgi-bin/drupal/) 
-* Open source libraries: https://maniacdev.com/ 
+* [Open source libraries](https://maniacdev.com/) 
 * WWDC transcripts, searchable
-   * From Apple, covers 2015+: https://developer.apple.com/search/?q=wwdc&type=Videos
-   * Independent, covers older WWDCs: http://asciiwwdc.com/ 
-* Usage stats (unofficial): https://david-smith.org/iosversionstats/ 
-   * Official, but not updated as often: https://developer.apple.com/support/app-store/ 
+   * [From Apple, covers 2015+](https://developer.apple.com/search/?q=wwdc&type=Videos)
+   * [Independent, covers older WWDCs](http://asciiwwdc.com/) 
+* [Usage stats (unofficial)](https://david-smith.org/iosversionstats/) 
+   * [Official, but not updated as often](https://developer.apple.com/support/app-store/) 
 * iOS 9
-   * iOS 9 sampler: https://github.com/shu223/iOS-9-Sampler
+   * [iOS 9 sampler](https://github.com/shu223/iOS-9-Sampler)
 * Auto-layout
    * Great hands-on tutorial: http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started 
    * Stack view in iOS 9: http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views 
@@ -25,10 +25,9 @@ layout: default
 * Code guidelines/recommendations
    * https://github.com/futurice/ios-good-practices 
 * Patterns for large apps
-   * MVVM https://www.objc.io/issues/13-architecture/mvvm/ 
-   * Other patterns http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/ 
+   * [MVVM](https://www.objc.io/issues/13-architecture/mvvm/) 
+   * [Other patterns](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/) 
       * Somewhat old
-   * 
 
 ## Android
 
