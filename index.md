@@ -345,5 +345,5 @@ Progressive enhancement; graceful degradation
 
 ## Best places to learn
 
-* https://www.codecademy.com/ 
-* https://www.udacity.com/
+* (https://www.codecademy.com/) 
+* (https://www.udacity.com/)
