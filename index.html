@@ -1,23 +1,777 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cgarbin.GitHub.io by cgarbin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Cgarbin.GitHub.io</h1>
+      <h2 class="project-tagline"></h2>
+    </section>
 
-<div class="home">
+    <section class="main-content">
+      <p>Useful (for me) links for client development, UX, data visualization</p>
 
-  <h1 class="page-heading">Posts</h1>
+<h1>
+<a id="mobile-development" class="anchor" href="#mobile-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mobile Development</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h2>
+<a id="ios" class="anchor" href="#ios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>iOS</h2>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<ul>
+<li>Best training: Stanford class -- <a href="http://web.stanford.edu/class/cs193p/cgi-bin/drupal/">http://web.stanford.edu/class/cs193p/cgi-bin/drupal/</a> </li>
+<li>Open source libraries: <a href="https://maniacdev.com/">https://maniacdev.com/</a> </li>
+<li>WWDC transcripts, searchable
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<ul>
+<li>From Apple, covers 2015+: <a href="https://developer.apple.com/search/?q=wwdc&amp;type=Videos">https://developer.apple.com/search/?q=wwdc&amp;type=Videos</a>
+</li>
+<li>Independent, covers older WWDCs: <a href="http://asciiwwdc.com/">http://asciiwwdc.com/</a> </li>
+</ul>
+</li>
+<li>Usage stats (unofficial): <a href="https://david-smith.org/iosversionstats/">https://david-smith.org/iosversionstats/</a> 
 
-</div>
+<ul>
+<li>Official, but not updated as often: <a href="https://developer.apple.com/support/app-store/">https://developer.apple.com/support/app-store/</a> </li>
+</ul>
+</li>
+<li>iOS 9
+
+<ul>
+<li>iOS 9 sampler: <a href="https://github.com/shu223/iOS-9-Sampler">https://github.com/shu223/iOS-9-Sampler</a>
+</li>
+</ul>
+</li>
+<li>Auto-layout
+
+<ul>
+<li>Great hands-on tutorial: <a href="http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started">http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started</a> </li>
+<li>Stack view in iOS 9: <a href="http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views">http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views</a> </li>
+</ul>
+</li>
+<li>UI performance
+
+<ul>
+<li>User interface: offscreen rendering, alpha channels, shadows: <a href="https://yalantis.com/blog/mastering-uikit-performance/">https://yalantis.com/blog/mastering-uikit-performance/</a>
+</li>
+</ul>
+</li>
+<li>Objective C 2015 changes: generics, nullability
+
+<ul>
+<li>
+<a href="https://medium.com/the-traveled-ios-developers-guide/objective-c-in-2015-3cb7dab3690c">https://medium.com/the-traveled-ios-developers-guide/objective-c-in-2015-3cb7dab3690c</a> </li>
+</ul>
+</li>
+<li>Code guidelines/recommendations
+
+<ul>
+<li>
+<a href="https://github.com/futurice/ios-good-practices">https://github.com/futurice/ios-good-practices</a> </li>
+</ul>
+</li>
+<li>Patterns for large apps
+
+<ul>
+<li>MVVM <a href="https://www.objc.io/issues/13-architecture/mvvm/">https://www.objc.io/issues/13-architecture/mvvm/</a> </li>
+<li>Other patterns <a href="http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/">http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/</a> 
+
+<ul>
+<li>Somewhat old</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="android" class="anchor" href="#android" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Android</h2>
+
+<ul>
+<li>Google's training site: <a href="https://developer.android.com/training/index.html">https://developer.android.com/training/index.html</a> </li>
+<li>Usage stats: <a href="https://developer.android.com/about/dashboards/index.html">https://developer.android.com/about/dashboards/index.html</a> </li>
+<li>Android M: <a href="https://developer.android.com/preview/index.html">https://developer.android.com/preview/index.html</a> </li>
+</ul>
+
+<h2>
+<a id="cross-platform" class="anchor" href="#cross-platform" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cross platform</h2>
+
+<ul>
+<li>Good Smashing Magazine article on combining native and web, with a real-life example: <a href="https://www.smashingmagazine.com/2016/02/building-first-class-app-leverages-website-case-study/">https://www.smashingmagazine.com/2016/02/building-first-class-app-leverages-website-case-study/</a> </li>
+<li>Smashing Magazine's comparison of native, PhoneGap (Cordova), Appcelerator (somewhat dated - 2013): <a href="http://www.smashingmagazine.com/2013/11/four-ways-to-build-a-mobile-app-part1-native-ios/">http://www.smashingmagazine.com/2013/11/four-ways-to-build-a-mobile-app-part1-native-ios/</a> </li>
+<li>Matching the platform's user experience: <a href="https://medium.com/space-camp/cross-platform-uis-for-mobile-meteor-apps-6f12b583b205">https://medium.com/space-camp/cross-platform-uis-for-mobile-meteor-apps-6f12b583b205</a> </li>
+</ul>
+
+<h3>
+<a id="cordova" class="anchor" href="#cordova" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cordova</h3>
+
+<ul>
+<li><a href="https://cordova.apache.org/">https://cordova.apache.org/</a></li>
+<li>Tutorial: <a href="https://ccoenraets.github.io/cordova-tutorial/">https://ccoenraets.github.io/cordova-tutorial/</a>
+</li>
+</ul>
+
+<h3>
+<a id="reactive-native" class="anchor" href="#reactive-native" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reactive Native</h3>
+
+<ul>
+<li><a href="http://www.reactnative.com/">http://www.reactnative.com/</a></li>
+<li>Tutorials:
+
+<ul>
+<li>Facebook: <a href="https://facebook.github.io/react-native/docs/tutorial.html">https://facebook.github.io/react-native/docs/tutorial.html</a> </li>
+<li>Ray Wenderlich: <a href="http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript">http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript</a> </li>
+</ul>
+</li>
+<li>Supports Android as of Sep/2015</li>
+<li>Doesn't support table views? That's a bummer for iOS… UIs won't look close to the native UIs.
+
+<ul>
+<li><a href="https://github.com/facebook/react-native/issues/332">https://github.com/facebook/react-native/issues/332</a></li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="ionic" class="anchor" href="#ionic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ionic</h3>
+
+<ul>
+<li><a href="http://ionicframework.com/">http://ionicframework.com/</a></li>
+<li>ionic2 in beta: <a href="http://blog.ionic.io/announcing-ionic-framework-2-beta/">http://blog.ionic.io/announcing-ionic-framework-2-beta/</a>
+
+<ul>
+<li>Using AngularJS2</li>
+</ul>
+</li>
+<li>Tutorials: <a href="http://ionicframework.com/getting-started/">http://ionicframework.com/getting-started/</a> 
+
+<ul>
+<li>The ionic book: <a href="http://ionicframework.com/docs/guide/">http://ionicframework.com/docs/guide/</a> </li>
+<li>Crash course video (one year old): <a href="https://www.youtube.com/watch?v=C-UwOWB9Io4&amp;feature=youtu.be">https://www.youtube.com/watch?v=C-UwOWB9Io4&amp;feature=youtu.be</a> </li>
+</ul>
+</li>
+<li>Emphasis on good UI design</li>
+<li>Built on top of Cordova and AngularJS
+
+<ul>
+<li>Hybrid: <a href="https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic">https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic</a> </li>
+</ul>
+</li>
+<li>Share apps with other users (e.g. testers): <a href="http://view.ionic.io/">http://view.ionic.io/</a> </li>
+</ul>
+
+<h3>
+<a id="meteor" class="anchor" href="#meteor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Meteor</h3>
+
+<ul>
+<li><a href="https://www.meteor.com/">https://www.meteor.com/</a></li>
+<li>Offers also the backend, not only the app side (based on Node.js)</li>
+<li>Offers its own framework (blaze), but also claims to integrate with AngularJS and React Native</li>
+<li>Somewhat old thread on it: <a href="https://news.ycombinator.com/item?id=8651367">https://news.ycombinator.com/item?id=8651367</a> </li>
+</ul>
+
+<h3>
+<a id="xamarin" class="anchor" href="#xamarin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Xamarin</h3>
+
+<ul>
+<li>
+<a href="https://xamarin.com/">https://xamarin.com/</a> </li>
+<li>C# (pretty much everything else is JavaScript)</li>
+<li>Also targets the desktop (Windows and Mac)</li>
+<li>Paid: <a href="https://store.xamarin.com/">https://store.xamarin.com/</a> (per developer, per device platfrom)</li>
+</ul>
+
+<h3>
+<a id="nativescript" class="anchor" href="#nativescript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NativeScript</h3>
+
+<ul>
+<li><a href="https://www.nativescript.org/">https://www.nativescript.org/</a></li>
+<li>
+<a href="http://www.agingcoder.com/programming/2015/10/15/second-thoughts-on-nativescript-react-native-and-mobilenativejavascript-in-general/">http://www.agingcoder.com/programming/2015/10/15/second-thoughts-on-nativescript-react-native-and-mobilenativejavascript-in-general/</a> </li>
+<li>Backed by <a href="http://www.telerik.com/nativescript/faq">http://www.telerik.com/nativescript/faq</a>
+</li>
+<li>Difference to Cordova, according to the FAQ
+
+<ul>
+<li>PhoneGap framework is using the browser's layout and rendering engine to display the UI of the application. NativeScript is using the native platform default rendering and layout engine to display the UI of the application. This means that the applications using NativeScript framework are exposing exactly the same UX as natively written applications. The other major difference is that with PhoneGap model you need to write a plugin to access the native capabilities of the platform, while with NativeScript the native APIs are available out of the box.</li>
+</ul>
+</li>
+<li>Compared to Ionic
+
+<ul>
+<li>
+<a href="https://blog.nraboy.com/2015/11/nativescript-vs-ionic-framework-should-you-switch/">https://blog.nraboy.com/2015/11/nativescript-vs-ionic-framework-should-you-switch/</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="mobile-web-base-development-test" class="anchor" href="#mobile-web-base-development-test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mobile web-base development test</h2>
+
+<ul>
+<li>
+<a href="http://mobiletest.me/">http://mobiletest.me/</a> - specific device testing, paid, 30-day trial</li>
+<li>
+<a href="https://developer.chrome.com/devtools/docs/device-mode">https://developer.chrome.com/devtools/docs/device-mode</a> - Chrome device emulation mode</li>
+<li>
+<a href="https://www.google.com/webmasters/tools/mobile-friendly/">https://www.google.com/webmasters/tools/mobile-friendly/</a> </li>
+<li>
+<a href="https://validator.w3.org/mobile/">https://validator.w3.org/mobile/</a> </li>
+<li>
+<a href="http://ready.mobi/">http://ready.mobi/</a> </li>
+</ul>
+
+<h2>
+<a id="articles" class="anchor" href="#articles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Articles</h2>
+
+<ul>
+<li><a href="http://www.smashingmagazine.com/2015/09/rapid-app-development-buzzworthy-spelling-bee-app/">http://www.smashingmagazine.com/2015/09/rapid-app-development-buzzworthy-spelling-bee-app/</a></li>
+<li>
+<a href="https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic">https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic</a> </li>
+</ul>
+
+<h1>
+<a id="web-development" class="anchor" href="#web-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Development</h1>
+
+<h2>
+<a id="general-training" class="anchor" href="#general-training" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General training</h2>
+
+<ul>
+<li>
+<a href="https://www.udacity.com/courses/web-development">https://www.udacity.com/courses/web-development</a> </li>
+<li>
+<a href="http://www.frontendhandbook.com/index.html">http://www.frontendhandbook.com/index.html</a> </li>
+<li>
+<a href="https://github.com/maxogden/art-of-node">https://github.com/maxogden/art-of-node</a> </li>
+</ul>
+
+<h2>
+<a id="javascript" class="anchor" href="#javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript</h2>
+
+<ul>
+<li>Best references
+
+<ul>
+<li>Eloquent JavaScript (learning): <a href="http://eloquentjavascript.net/">http://eloquentjavascript.net/</a> </li>
+<li>Mozilla: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide</a>
+</li>
+</ul>
+</li>
+<li>Quick scripting
+
+<ul>
+<li>
+<a href="https://jsfiddle.net/">https://jsfiddle.net/</a> </li>
+<li>
+<a href="http://codepen.io/">http://codepen.io/</a> </li>
+</ul>
+</li>
+<li>New features in ES6
+
+<ul>
+<li>Overview, comparing with ES5: <a href="http://es6-features.org/#PromiseCombination">http://es6-features.org/#PromiseCombination</a> </li>
+<li>Promises: how are they different from callback? 
+
+<ul>
+<li>Guaranteed execution; chaining; better error handling</li>
+<li>
+<a href="http://www.html5rocks.com/en/tutorials/es6/promises/">http://www.html5rocks.com/en/tutorials/es6/promises/</a> </li>
+<li>
+<a href="http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/">http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/</a> </li>
+<li>
+<a href="http://stackoverflow.com/questions/22539815/arent-promises-just-callbacks">http://stackoverflow.com/questions/22539815/arent-promises-just-callbacks</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="css" class="anchor" href="#css" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CSS</h2>
+
+<ul>
+<li>Browser support: <a href="http://caniuse.com/">http://caniuse.com/</a> </li>
+<li><a href="https://css-tricks.com/">https://css-tricks.com/</a></li>
+<li>Mind blowing CSS: <a href="https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/">https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/</a> </li>
+<li>LESS vs. Sass
+
+<ul>
+<li>Comprehensive: <a href="https://css-tricks.com/sass-vs-less/">https://css-tricks.com/sass-vs-less/</a> </li>
+<li>Side by side: <a href="https://gist.github.com/chriseppstein/674726">https://gist.github.com/chriseppstein/674726</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="html5" class="anchor" href="#html5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML5</h2>
+
+<ul>
+<li>Browser support: <a href="http://caniuse.com/">http://caniuse.com/</a> </li>
+<li>Mobile support: <a href="http://mobilehtml5.org/">http://mobilehtml5.org/</a> </li>
+</ul>
+
+<h2>
+<a id="angularjs" class="anchor" href="#angularjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AngularJS</h2>
+
+<ul>
+<li>Tutorial: <a href="https://docs.angularjs.org/tutorial">https://docs.angularjs.org/tutorial</a> </li>
+<li>What is so good in AngularJS? Main reference: <a href="https://www.airpair.com/#6-1-the-good-parts">https://www.airpair.com/#6-1-the-good-parts</a> 
+
+<ul>
+<li>Two-way data binding</li>
+<li>Backed by Google, constantly improving</li>
+<li>Lots of community activity around it</li>
+<li>Seems to force a better separation of concerns from the start</li>
+</ul>
+</li>
+<li>Comparison with other frameworks: <a href="https://www.airpair.com/js/javascript-framework-comparison">https://www.airpair.com/js/javascript-framework-comparison</a> </li>
+<li>What is new in AngularJS 2.0?
+
+<ul>
+<li>Overview: <a href="http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/#what_is_angularjs_20_all_about">http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/#what_is_angularjs_20_all_about</a> 
+
+<ul>
+<li>If you do it right on mobile, if you tackle loading times, performance and other mobile challenges first, then desktop becomes a much easier task.</li>
+</ul>
+</li>
+<li>Mobile first !! - <a href="http://angularjs.blogspot.com/2014/03/angular-20.html">http://angularjs.blogspot.com/2014/03/angular-20.html</a> </li>
+</ul>
+</li>
+<li>AngularJS + Bootstrap: 
+
+<ul>
+<li>
+<a href="https://scotch.io/tutorials/how-to-correctly-use-bootstrapjs-and-angularjs-together">https://scotch.io/tutorials/how-to-correctly-use-bootstrapjs-and-angularjs-together</a> </li>
+<li>
+<a href="http://mgcrea.github.io/angular-strap/#">http://mgcrea.github.io/angular-strap/#</a> </li>
+</ul>
+</li>
+<li>Angular and React comparison: <a href="https://medium.com/@housecor/angular-2-versus-react-there-will-be-blood-66595faafd51#.i80t0u66y">https://medium.com/@housecor/angular-2-versus-react-there-will-be-blood-66595faafd51#.i80t0u66y</a> </li>
+</ul>
+
+<h2>
+<a id="reactjs" class="anchor" href="#reactjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ReactJS</h2>
+
+<ul>
+<li>Tutorial
+
+<ul>
+<li>
+<a href="https://scotch.io/tutorials/learning-react-getting-started-and-concepts">https://scotch.io/tutorials/learning-react-getting-started-and-concepts</a> </li>
+</ul>
+</li>
+<li>How does this compete with AngularJS?
+
+<ul>
+<li>Backed by Facebook (vs. AngularJS backed by Google)</li>
+<li>Seems to concentrate more on the UI part</li>
+<li>JSX: HTML mixed with JavaScript</li>
+<li>Virtual DOM: selective rendering of subtrees - only what has changed</li>
+<li>React can be rendered on the server
+
+<ul>
+<li>Good for SEO</li>
+</ul>
+</li>
+<li>
+<a href="https://www.codementor.io/reactjs/tutorial/react-vs-angularjs">https://www.codementor.io/reactjs/tutorial/react-vs-angularjs</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="electron" class="anchor" href="#electron" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>electron</h2>
+
+<ul>
+<li>
+<a href="http://electron.atom.io/">http://electron.atom.io/</a> </li>
+<li>Tutorials
+
+<ul>
+<li>Quick start: <a href="https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md">https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md</a> </li>
+<li>All tutorials: <a href="https://github.com/atom/electron/tree/master/docs/tutorial">https://github.com/atom/electron/tree/master/docs/tutorial</a> </li>
+</ul>
+</li>
+<li>Deploy JavaScript as a desktop app - packages Chromium</li>
+<li>Microsoft Visual Studio Code uses it</li>
+<li>How to encapsulate the app? How big is it? How to update it?</li>
+</ul>
+
+<h2>
+<a id="nodejsiojs" class="anchor" href="#nodejsiojs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Node.js/io.js</h2>
+
+<ul>
+<li>Learning: <a href="http://eloquentjavascript.net/20_node.html">http://eloquentjavascript.net/20_node.html</a> </li>
+<li>Is Dart an alternative or something else?
+
+<ul>
+<li>Not clear. Best resource so far for comparison: <a href="https://www.youtube.com/watch?v=NHsmiY0rFS8">https://www.youtube.com/watch?v=NHsmiY0rFS8</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="polymerweb-components" class="anchor" href="#polymerweb-components" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Polymer/web components</h2>
+
+<ul>
+<li>Why is this better than an AngularJS directive? <a href="http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/">http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/</a> 
+
+<ul>
+<li>Polymer encapsulates styles (JS + HTML + CSS). AngularJS directive don't do that (but may in the future).</li>
+</ul>
+</li>
+<li>Polymer catalogs:
+
+<ul>
+<li>
+<a href="https://www.polymer-project.org/1.0/">https://www.polymer-project.org/1.0/</a> </li>
+<li>
+<a href="https://customelements.io/">https://customelements.io/</a> </li>
+</ul>
+</li>
+<li>Polymer starter kit: <a href="https://developers.google.com/web/tools/polymer-starter-kit/">https://developers.google.com/web/tools/polymer-starter-kit/</a> </li>
+<li>How is this different from AngularJS directives?
+
+<ul>
+<li>AngularJS doesn't encapsulate the HTML/CSS, so not self-contained UI element</li>
+<li>But AngularJS 2.0 may get closer to web components or at least use them as part of the framework</li>
+<li>
+<a href="http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/">http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="polyfill" class="anchor" href="#polyfill" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Polyfill</h2>
+
+<ul>
+<li>Cross-browser compatibility (not only, but mostly)</li>
+<li>List of lots of them: <a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills">https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills</a> 
+
+<ul>
+<li>Watch for license model</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="web-development-test" class="anchor" href="#web-development-test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web development test</h2>
+
+<ul>
+<li><a href="https://www.browserstack.com/">https://www.browserstack.com/</a></li>
+</ul>
+
+<h1>
+<a id="design-interaction-vd" class="anchor" href="#design-interaction-vd" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Design (interaction, VD)</h1>
+
+<h2>
+<a id="key-terms" class="anchor" href="#key-terms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Key terms</h2>
+
+<ul>
+<li>Discoverability: ability to find key information</li>
+<li>Affordance: how the user perceives that an action is possible (cultural conventions, constraints, …), also used to say that a control behaves as its appearance suggests it behaves
+
+<ul>
+<li>Donald Norman says it's been used out of context: <a href="http://www.jnd.org/dn.mss/affordances_and.html">http://www.jnd.org/dn.mss/affordances_and.html</a> </li>
+<li>
+<a href="https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/affordances">https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/affordances</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2>
+
+<ul>
+<li>
+<a href="http://www.smashingmagazine.com/">http://www.smashingmagazine.com/</a> </li>
+<li>Apple videos
+
+<ul>
+<li>Designing intuitive user experiences: <a href="https://developer.apple.com/videos/wwdc/2014/#211">https://developer.apple.com/videos/wwdc/2014/#211</a><br>
+</li>
+<li>Design with animation: <a href="https://developer.apple.com/videos/wwdc/2015/?id=803">https://developer.apple.com/videos/wwdc/2015/?id=803</a> </li>
+</ul>
+</li>
+<li>
+<a href="http://www.nngroup.com/articles/">http://www.nngroup.com/articles/</a> 
+
+<ul>
+<li>The iconic article: <a href="http://www.nngroup.com/articles/how-users-read-on-the-web/">http://www.nngroup.com/articles/how-users-read-on-the-web/</a> </li>
+</ul>
+</li>
+<li>
+<a href="http://www.fastcodesign.com/">http://www.fastcodesign.com/</a>
+
+<ul>
+<li>Generic design, not only computers</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="books-and-other-training-material" class="anchor" href="#books-and-other-training-material" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Books and other training material</h2>
+
+<ul>
+<li>Books
+
+<ul>
+<li>The Design of Everyday Things</li>
+<li>Don't Make Me Think (and Rocket Surgery Made Easy)
+
+<ul>
+<li>Summary (unofficial): <a href="http://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/">http://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/</a> </li>
+<li><a href="https://www.sensible.com/dmmt.html">https://www.sensible.com/dmmt.html</a></li>
+<li>Also offers one-day workshops on usability test</li>
+</ul>
+</li>
+<li>About Face</li>
+<li>Designing with the Mind in Mind</li>
+</ul>
+</li>
+<li>Other material
+
+<ul>
+<li>
+<a href="http://uxoslo.com/2014/01/27/5-brilliant-ted-talks-that-will-make-you-a-better-ux-designer/">http://uxoslo.com/2014/01/27/5-brilliant-ted-talks-that-will-make-you-a-better-ux-designer/</a> </li>
+<li>
+<a href="https://www.thoughtworks.com/insights/blog/how-become-great-ux-designer-5-easy-steps">https://www.thoughtworks.com/insights/blog/how-become-great-ux-designer-5-easy-steps</a> </li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="sample-from-other-apps" class="anchor" href="#sample-from-other-apps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample from other apps</h2>
+
+<ul>
+<li>
+<a href="http://uxarchive.com/">http://uxarchive.com/</a> (updates seems to have been far and between?)</li>
+<li>
+<a href="http://www.mobile-patterns.com/">http://www.mobile-patterns.com/</a> </li>
+<li>
+<a href="http://pttrns.com/">http://pttrns.com/</a> </li>
+<li>
+<a href="http://inspired-ui.com/">http://inspired-ui.com/</a> </li>
+<li>
+<a href="http://androidniceties.tumblr.com/">http://androidniceties.tumblr.com/</a> </li>
+<li>
+<a href="http://androidpttrns.com/">http://androidpttrns.com/</a> </li>
+<li>
+<a href="http://zurb.com/patterntap">http://zurb.com/patterntap</a> </li>
+</ul>
+
+<h2>
+<a id="responsive-designadaptive-design---progressive-enhancement-graceful-degradation" class="anchor" href="#responsive-designadaptive-design---progressive-enhancement-graceful-degradation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Responsive design/adaptive design - progressive enhancement; graceful degradation</h2>
+
+<ul>
+<li>The basics:
+
+<ul>
+<li>Everything resizable</li>
+<li>Hide content (add navigation to get to it)</li>
+<li>But… Should also not even serve assets that are not applicable to a device, e.g. large image for small device</li>
+</ul>
+</li>
+<li>Media queries
+
+<ul>
+<li>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries</a> </li>
+<li>
+<a href="https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en">https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en</a> </li>
+</ul>
+</li>
+<li>Responsive vs. adaptive
+
+<ul>
+<li>
+<a href="http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly">http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly</a>
+
+<ul>
+<li>Best explanation ever</li>
+</ul>
+</li>
+<li>
+<a href="https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design">https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design</a> 
+
+<ul>
+<li>Responsive design works on the principle of flexibility. The idea is that a single fluid design based upon media queries, flexible grids, and responsive images can be used to create a user experience that flexes and changes based on a multitude of factors. The primary benefit is that each user experiences a consistent design. One drawback is a slower load time.</li>
+<li>Adaptive design is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. This can result in a lack of consistency across platforms and devices, but the load time tends to be faster.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Progressive enhancement degradation
+
+<ul>
+<li>
+<a href="http://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement">http://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement</a> </li>
+</ul>
+</li>
+<li>Guidelines, patterns
+
+<ul>
+<li>
+<a href="http://bradfrost.com/blog/web/responsive-nav-patterns/">http://bradfrost.com/blog/web/responsive-nav-patterns/</a>
+
+<ul>
+<li><a href="http://bradfrost.com/blog/web/complex-navigation-patterns-for-responsive-design/">http://bradfrost.com/blog/web/complex-navigation-patterns-for-responsive-design/</a></li>
+</ul>
+</li>
+<li>
+<a href="http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/</a> 
+
+<ul>
+<li>Good theory mixed with code</li>
+</ul>
+</li>
+<li>
+<a href="https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/index?hl=en">https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/index?hl=en</a>
+
+<ul>
+<li>More direct advice for implementation</li>
+<li>See also Udacity class referred to in the article</li>
+</ul>
+</li>
+<li>
+<a href="http://www.1stwebdesigner.com/overview-of-breakpoints-in-responsive-web-design/">http://www.1stwebdesigner.com/overview-of-breakpoints-in-responsive-web-design/</a>
+
+<ul>
+<li>Somewhat simple, but good as a short overview of breakpoints</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="prototyping" class="anchor" href="#prototyping" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prototyping</h2>
+
+<ul>
+<li>Invision
+
+<ul>
+<li>Supports chat for reviews</li>
+<li>Will add animation: <a href="http://blog.invisionapp.com/motion-prototypeanimation/">http://blog.invisionapp.com/motion-prototypeanimation/</a> </li>
+<li>Will add styles, can export them: <a href="http://blog.invisionapp.com/insight-ui-designers-developers-collaboration">http://blog.invisionapp.com/insight-ui-designers-developers-collaboration</a> /</li>
+</ul>
+</li>
+<li>Atomic - <a href="https://atomic.io/">https://atomic.io/</a> -- launched Sep/2015
+
+<ul>
+<li>Compared to Invision: supports animation and version control</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="onboardig--teaching-marks" class="anchor" href="#onboardig--teaching-marks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Onboardig + teaching marks</h2>
+
+<ul>
+<li>Submit video to the app store! Free training, accessible to everyone.</li>
+<li><a href="http://www.smashingmagazine.com/2014/08/mobile-onboarding-beginners-guide/">http://www.smashingmagazine.com/2014/08/mobile-onboarding-beginners-guide/</a></li>
+<li>
+<a href="http://www.mobile-patterns.com/coach-marks">http://www.mobile-patterns.com/coach-marks</a> </li>
+<li>
+<a href="http://uxarchive.com/tasks/onboarding">http://uxarchive.com/tasks/onboarding</a> </li>
+<li>
+<a href="http://inspired-ui.com/tagged/coach_marks">http://inspired-ui.com/tagged/coach_marks</a> </li>
+</ul>
+
+<h2>
+<a id="anticipatory-design" class="anchor" href="#anticipatory-design" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anticipatory design</h2>
+
+<ul>
+<li>Fewer choices
+
+<ul>
+<li>Anticipatory design is fundamentally different: decisions are made and executed on behalf of the user. The goal is not to help the user make a decision, but to create an ecosystem where a decision is never made—it happens automatically and without user input. The design goal becomes one where we eliminate as many steps as possible and find ways to use data, prior behaviors and business logic to have things happen automatically, or as close to automatic as we can get.</li>
+</ul>
+</li>
+<li>
+<a href="http://www.fastcodesign.com/3045039/the-next-big-thing-in-design-fewer-choices">http://www.fastcodesign.com/3045039/the-next-big-thing-in-design-fewer-choices</a> </li>
+<li><a href="http://www.smashingmagazine.com/2015/09/anticipatory-design/">http://www.smashingmagazine.com/2015/09/anticipatory-design/</a></li>
+</ul>
+
+<h2>
+<a id="design-with-personas" class="anchor" href="#design-with-personas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Design with personas</h2>
+
+<ul>
+<li>
+<a href="https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/personas">https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/personas</a>
+
+<ul>
+<li>See article for some cons as well</li>
+</ul>
+</li>
+<li>
+<a href="http://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/">http://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/</a> </li>
+</ul>
+
+<h2>
+<a id="checklist-for-ux-review" class="anchor" href="#checklist-for-ux-review" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Checklist for UX review</h2>
+
+<ul>
+<li>Who are the target personas or actors?</li>
+<li>How often will they use it?</li>
+<li>What is the mental model of the user?</li>
+<li>What is the context? Laptop in the office, or mobile on the road?</li>
+<li>What is the prioritization of the flow?</li>
+<li>What are the goals?</li>
+</ul>
+
+<h1>
+<a id="data-visualization" class="anchor" href="#data-visualization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Visualization</h1>
+
+<ul>
+<li><a href="http://d3js.org/">http://d3js.org/</a></li>
+<li><a href="http://www.edwardtufte.com/tufte/">http://www.edwardtufte.com/tufte/</a></li>
+<li>
+<a href="http://flowingdata.com/">http://flowingdata.com/</a> </li>
+<li>
+<a href="http://www.informationisbeautiful.net/">http://www.informationisbeautiful.net/</a> </li>
+<li>
+<a href="http://junkcharts.typepad.com/">http://junkcharts.typepad.com/</a> </li>
+<li>
+<a href="http://datavisualization.ch/">http://datavisualization.ch/</a> </li>
+<li>
+<a href="http://chartporn.org/">http://chartporn.org/</a> </li>
+<li>
+<a href="http://www.coolinfographics.com/">http://www.coolinfographics.com/</a> </li>
+</ul>
+
+<h1>
+<a id="general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h1>
+
+<h2>
+<a id="restful-apis" class="anchor" href="#restful-apis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RESTful APIs</h2>
+
+<ul>
+<li>Great tutorial: <a href="http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1">http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1</a> </li>
+</ul>
+
+<h2>
+<a id="best-places-to-learn" class="anchor" href="#best-places-to-learn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Best places to learn</h2>
+
+<ul>
+<li>
+<a href="https://www.codecademy.com/">https://www.codecademy.com/</a> </li>
+<li><a href="https://www.udacity.com/">https://www.udacity.com/</a></li>
+</ul>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
