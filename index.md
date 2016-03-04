@@ -6,7 +6,7 @@ layout: default
 	
 ## iOS
 
-* Best training: Stanford class -- http://web.stanford.edu/class/cs193p/cgi-bin/drupal/ 
+* Best training: [Stanford class](http://web.stanford.edu/class/cs193p/cgi-bin/drupal/) 
 * Open source libraries: https://maniacdev.com/ 
 * WWDC transcripts, searchable
    * From Apple, covers 2015+: https://developer.apple.com/search/?q=wwdc&type=Videos
