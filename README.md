@@ -1,3 +1,3 @@
-# cgarbin.github.io
+Useful (for me) links for mobile development, UX, data visualization
 
-Useful (for me) links for client development, UX, data visualization
+Built on top of <a href="http://chibicode.github.io/solo">Solo</a>, by [Shu Uesugi](https://github.com/chibicode)
