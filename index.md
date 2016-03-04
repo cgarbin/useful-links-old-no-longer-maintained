@@ -223,7 +223,8 @@ layout: default
 
 ## References
 
-* http://www.smashingmagazine.com/ 
+* [Smashing Magazine](http://www.smashingmagazine.com/)
+   * The best site for client developmetn, if you are allowed to pick only one 
 * Apple videos
    * [Designing intuitive user experiences](https://developer.apple.com/videos/wwdc/2014/#211)   
    * [Design with animation](https://developer.apple.com/videos/wwdc/2015/?id=803) 
