@@ -7,6 +7,7 @@ layout: default
 ## iOS
 
 * Best training: [Stanford class](http://web.stanford.edu/class/cs193p/cgi-bin/drupal/) 
+* Best tutorials: [Ray Wenderlich site](https://www.raywenderlich.com/)
 * [Open source libraries](https://maniacdev.com/) 
 * WWDC transcripts, searchable
    * [From Apple, covers 2015+](https://developer.apple.com/search/?q=wwdc&type=Videos)
@@ -18,6 +19,7 @@ layout: default
 * Auto-layout
    * [Great hands-on tutorial](http://www.raywenderlich.com/113768/adaptive-layout-tutorial-in-ios-9-getting-started) 
    * [Stack view in iOS 9](http://www.raywenderlich.com/114552/uistackview-tutorial-introducing-stack-views) 
+* [How different screen resolutions work](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * UI performance
    * [User interface: offscreen rendering, alpha channels, shadows](https://yalantis.com/blog/mastering-uikit-performance/)
 * [Objective C 2015 changes: generics, nullability](https://medium.com/the-traveled-ios-developers-guide/objective-c-in-2015-3cb7dab3690c) 
