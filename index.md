@@ -29,6 +29,8 @@ layout: default
    * [MVVM](https://www.objc.io/issues/13-architecture/mvvm/) 
    * [Other patterns](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/) 
       * Somewhat old
+* Swift
+   * [Functional programming in Swift](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)
 
 ## Android
 
