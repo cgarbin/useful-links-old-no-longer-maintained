@@ -55,6 +55,8 @@ layout: default
 * Tutorials:
    * [Facebook](https://facebook.github.io/react-native/docs/tutorial.html) 
    * [Ray Wenderlich](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript) 
+* Other articles
+   * [https://www.smashingmagazine.com/2016/04/consider-react-native-mobile-app/]
 * Supports Android as of Sep/2015
 * Doesn't support table views? That's a bummer for iOS… UIs won't look close to the native UIs.
    * https://github.com/facebook/react-native/issues/332
