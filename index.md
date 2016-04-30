@@ -360,4 +360,4 @@ Progressive enhancement; graceful degradation
 
 ## Agile
 
-* [Kanban overview and comparison with Scrum][https://www.atlassian.com/agile/kanban]
+* [Kanban overview and comparison with Scrum](https://www.atlassian.com/agile/kanban)
