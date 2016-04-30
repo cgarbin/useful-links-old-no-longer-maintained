@@ -357,3 +357,7 @@ Progressive enhancement; graceful degradation
 
 * [Codecademy](https://www.codecademy.com/) 
 * [Udacity](https://www.udacity.com/)
+
+## Agile
+
+* [Kanban overview and comparison with Scrum][https://www.atlassian.com/agile/kanban]
