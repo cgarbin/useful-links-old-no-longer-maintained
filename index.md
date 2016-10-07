@@ -6,11 +6,6 @@ layout: default
 	
 ## iOS
 
-Test
-
-* circuit://
-* circuit://home
-
 * Best training: [Stanford class](http://web.stanford.edu/class/cs193p/cgi-bin/drupal/) 
 * Best tutorials: [Ray Wenderlich site](https://www.raywenderlich.com/)
 * [Open source libraries](https://maniacdev.com/) 
