@@ -1,7 +1,7 @@
 # Site settings
 title: cgarbin 
 tag_text: cgarbin
-description: A collection of useful (for me) links for mobile development, UX, data visualization
+description: A collection of useful (for me) links and notes
 url: "http://127.0.0.1:4000"
 
 google_analytics: UA-74656982-1
