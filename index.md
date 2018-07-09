@@ -2,6 +2,10 @@
 layout: default
 ---
 
+-----
+Note: no longer maintained - left here for historical reasons; some of the links are still useful
+-----
+
 # Mobile Development
 	
 ## iOS
